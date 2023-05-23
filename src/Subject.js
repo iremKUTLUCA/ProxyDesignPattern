@@ -1,4 +1,5 @@
-// Subject interface
 class Subject {
     process();
 }
+
+module.exports = Subject;
