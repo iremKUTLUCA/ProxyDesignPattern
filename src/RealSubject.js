@@ -1,6 +1,9 @@
-class RealSubject {
+const Subject = require('./Subject');
+
+class RealSubject extends Subject{
   constructor() {
-    console.log("Object created.");
+    super();
+    console.log("Creating real subject...");
   }
 
   process() {

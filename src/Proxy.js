@@ -1,7 +1,9 @@
 const RealSubject = require('./RealSubject');
+const Subject = require('./Subject');
 
-class Proxy {
+class Proxy extends Subject{
   constructor() {
+    super();
     this.object = null;
   }
 

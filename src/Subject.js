@@ -1,5 +1,5 @@
 class Subject {
-    process();
+    process() {}
 }
 
 module.exports = Subject;
